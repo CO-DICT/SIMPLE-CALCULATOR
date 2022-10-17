@@ -1,0 +1,80 @@
+body {
+background-color: #DBF9FC;
+}
+
+body::after {
+	content: 'CO-DICT';
+	position: fixed;
+	
+	top: 50px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: url('logo.png');
+	background-size: 800px 800px;
+	transform: perspective( 800px ) rotateX( -25deg );
+		opacity: 0.3;
+	pointer-events: none;
+  }
+
+  *{
+margin:0; padding:0; box-sizing:border-box;
+}header{
+width: 100%; height: 100vh;
+background-color: #DBF9FC;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+		
+table, td, th
+{
+border: 1px solid black;
+width: 33%;
+text-align: center;
+background-color: transparent;
+border-collapse:collapse;
+}
+    td
+    {
+        background-color: mediumaquamarine
+    }
+    button
+    {
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+		border-radius: 25px;
+        color: rebeccapurple;
+        background-color: coral;
+        
+    }
+table { margin: auto; }
+input { text-align:right; }
+
+
+footer.footer {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+	margin-top: -80PX;
+}
+
+
+p.copyright {
+    color: #fff;
+    line-height: 40px;
+    font-size: 1.2em;
+	margin-left:auto;
+}
+q.copy {
+    color: #fff;
+   margin-top: -25px;
+   font-size: large;
+   margin-right: 50px;
+	float: right;
+}
+
+
+
+		
